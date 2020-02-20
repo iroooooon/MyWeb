@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource
+	
+		name="jdbc/class7PJDB"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/class7pj"
+		username="root"
+		password="1234"
+		maxActive="500"
+		maxIdle="100"
+		/>
+</Context>

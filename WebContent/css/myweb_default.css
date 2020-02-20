@@ -1,0 +1,792 @@
+@CHARSET "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+html {
+	height:100%;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  clear:both;
+  background: #f1f1f1;
+  height:100%;
+}
+
+/* 로그인 폼 부분 시작 */
+.login {
+	margin:0;
+	margin-right:auto;
+	margin-left:auto;
+	width: 75%;
+	min-height:770px;
+	text-align: center;
+}
+.login>.card{
+	padding-top: 50px;
+}
+.login h1{
+	margin-bottom:20px;
+}
+.login h1>a{
+	font-size: 70px;
+	text-decoration: none;
+	color: black;
+}
+.login form>input{
+	width:400px;
+	height:40px;
+}
+.login form>input{
+	margin-bottom: 30px;
+}
+.login form .btn{
+	background-color: #4dffc3;
+	height: 50px;
+	border:none;
+	font-size: 25px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.login form>hr{
+	width:400px;
+}
+.login a.join{
+	text-decoration: none;
+	color:#a6a6a6;
+}
+.login a.join:HOVER{
+	color:#4dffc3;
+}
+/* 로그인 폼 끝 */
+
+/* 회원가입 폼 시작*/
+.join {
+	margin:0;
+	margin-right:auto;
+	margin-left:auto;
+	width: 75%;
+	min-height:575px;
+	text-align: center;
+}
+.join>.card{
+	padding-top: 50px;
+}
+.join h1{
+	margin-bottom:50px;
+}
+.join h1>a{
+	font-size: 70px;
+	text-decoration: none;
+	color: black;
+}
+.join h4.head{
+	width:450px;
+	background-color: #4dffc3;
+}
+.join #join-content{
+	margin-top: 40px;
+	width:450px;
+	margin: 0 auto;
+}
+.join div.join_row{
+	margin: 0 auto;
+	width:420px;
+	clear:both;
+	overflow: hidden;
+}
+.join div.join_row>h4{
+	text-align: left;
+	margin-bottom:10px;
+}
+.join div.join_row>input{
+	width:420px;
+	height:50px;
+	padding:10px;
+}
+.join div.join_row input.input_id{
+	float:left;
+	width:310px;
+	height:50px;
+	padding:10px;
+}
+.join div.join_row input.id_check{
+	float:right;
+	width:90px;
+	height:50px;
+	color: #ffffff;
+	text-align:center;
+	background-color:#4dffc3;
+	border: none;
+	font-size: 16px;
+}
+.join div.join_row input.input_addr{
+	float:left;
+	width:280px;
+	height:50px;
+	padding:10px;
+	margin-bottom: 10px;
+}
+.join div.join_row input.addr_search{
+	float:right;
+	width:120px;
+	height:50px;
+	color: #ffffff;
+	text-align:center;
+	background-color:#4dffc3;
+	border: none;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.join div.join_row input.input_address{
+	margin: 10px 0 10px 0;
+}
+.join div.join_row>select{
+	width:420px;
+	height:50px;
+}
+.join
+.join div.btn_area{
+	margin-top:40px;
+}
+.join div.btn_area>input{
+	width: 420px;
+	height:50px;
+	color: #ffffff;
+	background-color:#4dffc3;
+	border: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+/* 회원가입 폼 끝 */
+
+/* 회원 정보 수정 폼 시작 */
+.update {
+	margin:0;
+	margin-right:auto;
+	margin-left:auto;
+	width: 75%;
+	min-height:575px;
+	text-align: center;
+}
+.update>.card{
+	padding-top: 50px;
+}
+.update h1{
+	margin-bottom:50px;
+}
+.update h1>a{
+	font-size: 70px;
+	text-decoration: none;
+	color: black;
+}
+.update h4.head{
+	width:450px;
+	background-color: #4dffc3;
+}
+.update #update-content{
+	margin-top: 40px;
+	width:450px;
+	margin: 0 auto;
+}
+.update div.update_row{
+	margin: 0 auto;
+	width:420px;
+	clear:both;
+	overflow: hidden;
+}
+.update div.update_row>h4{
+	text-align: left;
+	margin-bottom:10px;
+}
+.update div.update_row>input{
+	width:420px;
+	height:50px;
+	padding:10px;
+}
+.update div.update_row input.input_id{
+	width:420px;
+	height:50px;
+	padding:10px;
+	font-weight: bold;
+}
+.update div.update_row input.input_addr{
+	float:left;
+	width:280px;
+	height:50px;
+	padding:10px;
+	margin-bottom: 10px;
+}
+.update div.update_row input.addr_search{
+	float:right;
+	width:120px;
+	height:50px;
+	color: #ffffff;
+	text-align:center;
+	background-color:#4dffc3;
+	border: none;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.update div.update_row input.input_address{
+	margin: 10px 0 10px 0;
+}
+.update div.update_row>select{
+	width:420px;
+	height:50px;
+}
+.update
+.update div.btn_area{
+	margin-top:40px;
+}
+.update div.btn_area>input{
+	width: 420px;
+	height:50px;
+	color: #ffffff;
+	background-color:#4dffc3;
+	border: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+/* 회원 정보 수정 폼 끝 */
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+.header a{
+	text-decoration: none;
+	color : black;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.rightcolumn div#card_welcome{
+	width:100%;
+}
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  overflow:hidden;
+  clear:both;
+}
+#card_bp, #card_fbp{
+	min-height:350px;
+}
+#card_bm, #card_fbm, #card_gm{
+	min-height:700px;
+}
+
+/* .card>h2{
+	margin-left: 32px;
+} */
+
+/* Clear floats after the columns */
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+/* main-로그인 창 부분 */
+div.welcome>div.member_Update>a{
+	text-decoration: none;
+	color: black;
+}
+div.welcome>div.member_Update>a:HOVER{
+	color: #4dffc3;
+}
+/* main-로그인 창 부분 */
+
+/* main-preview */
+div.card li>div{
+	text-align: left;
+}
+div.card ul{
+	overflow: hidden;
+	clear: both;
+	list-style: none;
+}
+div.card li{
+	margin: 10px 0;
+	height: 25px;
+}
+div.card li:HOVER{
+	background-color: #f2f2f2;
+}
+div.card li h3{
+	color: black;
+}
+div.card li>div h3{
+	margin:0;
+	width:500px;
+	margin-left:50px;
+	float:left;
+}
+div.card li>div h5{
+	margin:0;
+	width:300px;
+	float:right;
+	margin-right:50px;
+	color: #aaa;
+}
+div.card li>div#li_sub, div#li_dat{
+	display: block;
+	padding:2px;
+}
+/* main-preview */
+
+
+/* 아이디 중복체크 시작*/
+div#dup_id{
+  	width: 100%;
+  	padding: 20px;
+}
+
+div.dup_title>h1{
+	text-align: center;
+	background-color: #4dffc3;
+	color : #ffffff;
+}
+div.dup_content1{
+	height:50px;
+}
+div.dup_content1>h3{
+	float:left;
+	margin: 0;
+	height:40px;
+	text-align: center;
+}
+
+div.dup_content1>h3>span{
+	font-style: italic;
+	color : #3366ff;
+}
+div.dup_content2{
+	background-color: #99ffcc;
+	height: 100px;
+	padding-top: 10px;
+	overflow: hidden;
+	clear: both;
+}
+div.dup_content2 label{
+	font-weight: bold;
+	margin-left: 5px;
+}
+div.dup_content2 input{
+	margin-left: 5px;
+}
+div.dup_content2 .input_id{
+	width:285px;
+	height:40px;
+	padding: 10px;
+}
+div.dup_content2 .submit{
+	height:40px;
+	width:100px;
+	margin-right: 5px;
+}
+div#dup_id .use_btn{
+	float:right;
+	height:30px;
+	margin-top:5px;
+	margin-right:5px;
+	width:120px;
+	text-align: center;
+}
+/* 아이디 중복체크 끝*/
+
+/* 회원 목록 */
+div#member_list{
+	width:100%;
+}
+/* 회원 목록 */
+
+/* 게시판 시작 */
+div.card>h2{
+	border-bottom:1px dashed #aaa;
+}
+div.board_area{
+	width:100%;
+}
+div.board_area>table.board_tb{
+	width:95%;
+	margin:0 auto;
+	border-spacing: 0;
+}
+thead{
+	background-color: #EDEDED;
+}
+thead th{
+	height:40px;
+}
+thead th.tbdate{
+	width:200px;
+}
+tbody td.tbtd{
+	text-align: center;
+}
+tbody td{
+	height: 40px;
+}
+tbody#maintbody tr:HOVER{
+	background-color: #ccffee;
+}
+div#mainbtm{
+	overflow: hidden;
+	clear:both;
+	margin-left:32px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+div#paging{
+	display: inline-block;
+	padding:0 100px;
+	padding-top:10px;
+	/* border:1px solid red; */
+	text-align: center;
+}
+div#paging>a{
+	text-decoration: none;
+	color: black;
+}
+div#paging>a:HOVER{
+	color: orange;
+	cursor: pointer;
+}
+div#wrbtn{
+	display: inline-block;
+	float:right;
+	margin-right:30px;
+}
+div#wrbtn>input{
+	height:30px;
+}
+div.write_main>div.write_group{
+	margin: 0 auto;
+	width: 600px;
+}
+div.write_group>div.row_group{
+	margin-left: 5px;
+	padding:10px 10px;
+}
+div.write_group>div.row_group>label{
+	font-weight: bold;
+}
+div.write_group>div.row_group input{
+	margin:10px 0;
+	width: 572px;
+	height:40px;
+}
+div.write_group>div.row_group textarea{
+	margin:10px 0;
+}
+div.write_group>div#row_group_btn{
+	text-align: center;
+}
+div.write_group>div#row_group_btn input{
+	width:260px;
+	margin:0 10px;
+}
+div.write_group>div#row_group_btn input:HOVER{
+	cursor: pointer;
+}
+/* tbody td:HOVER{
+	background-color: #ccffee;
+	cursor: pointer;
+} */
+tbody td.tbtdsubject>a{
+	text-decoration: none;
+	color: black;
+}
+tbody td.tbtdsubject>a:HOVER{
+	cursor: pointer;
+}
+div.card>input.board_wr_btn{
+	float:right;
+	width: 100px;
+	height:40px;
+	font-size: 16px;
+}
+div.card>input.board_wr_btn:HOVER{
+	cursor: pointer;	
+}
+span.cmtId:HOVER{
+	color: aqua;
+}
+div.arthead{
+	margin-left:32px;
+	margin-bottom:10px;
+	width:980px;
+	background-color: #EDEDED;
+}
+div.artmain{
+	margin-left:32px;
+	width:980px;
+	border-bottom:1px solid #aaa;
+}
+div.cmt_write{
+	background-color: #e6e6e6;
+	margin-top: 50px;
+	margin-left: 32px;	
+	overflow: hidden;
+	clear: both;
+	padding: 10px 20px;
+}
+div.cmt_write h4{
+	margin : 0 30px;
+}
+div.cwid{
+	margin:20px 0;
+}
+div.cwcont, div.cwbtn{
+	margin: 0 5px;
+}
+div.cwbtn>input:HOVER{
+	cursor: pointer;
+}
+div.cwbtn>input{
+	height: 65px;
+	width:65px;
+}
+div.cmt_write div{
+	float:left;
+}
+div.artbtn{
+	margin-left:32px;
+	clear:both;
+	overflow: hidden;
+	
+}
+div.artbtn>div{
+	color : #999999;
+}
+div.artbtn>div>a{
+	text-decoration: none;
+	color : #999999;
+}
+div.artbtn>span>a:HOVER{
+	color: #4dffc3;
+}
+div.artbtn>div.cmt_dbtn{
+	float:right;
+	margin-right:5px;
+}
+div.artbtn>div.cmt_dbtn>input:HOVER {
+	cursor: pointer;	
+}
+div.artsubject , div.artcontent{
+	
+	margin-left:50px;
+}
+div.artsubject{
+	min-height:100px;
+}
+div.artcontent{
+	min-height: 500px;
+}
+div.artinfo{
+	border-top:2px solid #EDEDED;
+	border-bottom:1px solid #EDEDED;
+	overflow: hidden;
+	padding:5px;
+}
+div.artinfo div{
+	width:200px;
+}
+div.artinfo>div{
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+}
+div.artinfo>div.artwriter{
+	width:150px;
+}
+div.artinfo>div.artdate{
+	width:350px;
+}
+div.artinfo>div.artread{
+	float:left;
+	width:120px;
+}
+div.content_space{
+	border-bottom: 1px dashed #aaa;
+	margin-left: 32px;
+}
+
+div.content_cmt div.artinfo{
+	background-color: white;
+	border-top: none;
+	border-bottom: 1px solid #aaa;
+}
+
+div.cmt_head>span.icon{
+	border:1px solid #3366ff;
+	border-radius: 5px;
+	background-color: #3366ff;
+	color: white;
+	margin-left:3px;
+}
+/* 게시판 끝 */
+
+/* gallery */
+div.gallery{
+	margin: 5px;
+  	border: 1px solid #ccc;
+  	float: left;
+  	width: 19%;/* 192px */
+  	height:315px;
+}
+div.gallery_pre{
+	margin: 5px;
+  	border: 1px solid #ccc;
+  	float: left;
+  	width: 300px;
+  	height:250px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: 220px;
+}
+
+div.gallery_pre{
+	width:100%;
+}
+div.gallery_pre img{
+	width: 100%;
+  height: 170px;
+}
+div.desc>div.desc_title>h5{
+	margin-top: 5px;
+    margin-bottom: 10px;
+    color: #404040;
+    font-size: larger;
+}
+div.desc_pre>div.desc_title>h5{
+	margin-top: 5px;
+    margin-bottom: 10px;
+    color: #404040;
+    font-size: larger;
+}
+div.desc>div.desc_id{
+	color: #aaa;
+}
+div.desc_pre>div.desc_id{
+	color: #aaa;
+}
+div.desc {
+  padding: 5px;
+  text-align: left;
+}
+div.desc_pre{
+	padding: 2px;
+	text-align: center;
+}
+div.artcontent img{
+	margin-bottom:30px;
+	max-width:600px;
+	max-height:700px;
+}
+/* gallery */
+
+div#banner{
+	width:100%;
+}
+div#banner img{
+	width:100%;
+}
+/* Footer */
+.footer {
+	width:100%;
+	height:118px;
+	clear:both;
+  	padding: 10px 400px 0;
+  	text-align: center;
+  	background: #ddd;
+  	margin-top: 20px;
+  	position:relative;
+  	bottom:5px;
+}
+.footer img{
+	float: left;
+	width: 90px;
+	height: 90px;
+}
+.footer p{
+	float:left;
+	text-align: left;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+} 
